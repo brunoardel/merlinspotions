@@ -1,0 +1,19 @@
+.potions {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+.potionsTitle {
+  padding: 20px 0;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+@media (min-width: 992px) {
+  .potionsTitle {
+    text-align: left;
+  }
+}

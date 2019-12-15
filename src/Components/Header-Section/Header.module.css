@@ -1,0 +1,27 @@
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+.headerTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media (min-width: 992px) {
+  .headerTop {
+    padding: 20px 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .wrapper {
+    width: 100%;
+  }
+}

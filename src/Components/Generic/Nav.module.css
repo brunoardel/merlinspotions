@@ -1,0 +1,102 @@
+.navbarNav {
+  height: 100%;
+  background-color: #4f336d;
+}
+
+.navbarItem {
+  list-style: none;
+  padding: 10px 0;
+  padding-bottom: 0;
+  transition: 0.4s;
+}
+
+.navbarItem::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  display: block;
+  margin-top: 10px;
+  background-color: #664f80;
+  transition: 0.4s;
+}
+
+.navbarItem:hover::after {
+  width: 150px;
+  transition: 0.4s;
+}
+
+.navbarItem:hover {
+  background-color: #412a56;
+  transition: 0.4s;
+}
+
+.navbarLink {
+  color: #ffffff;
+  text-decoration: none;
+  font-style: italic;
+  font-weight: 300;
+  margin-left: 60px;
+}
+
+.navbarBtnGroup {
+  margin: 0 auto;
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 0;
+  padding-top: 30px;
+}
+
+.navbarBtnSign {
+  cursor: pointer;
+  background-color: transparent;
+  color: #ffffff;
+  font-style: italic;
+}
+
+.navbarBtnGroup > span {
+  color: #9b8ebd;
+}
+
+@media (min-width: 992px) {
+  .navbarNav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+  }
+  .navbarItems {
+    width: 60%;
+    justify-content: space-evenly;
+    display: flex;
+  }
+
+  .navbarItem,
+  .navbarBtnSign {
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+  .navbarBtnGroup > span {
+    align-self: center;
+  }
+
+  .navbarLink {
+    margin-left: 0px;
+  }
+
+  .navbarItem::after {
+    display: none;
+  }
+
+  .navbarItem:hover,
+  .navbarBtnSign:hover {
+    background-color: #412a56;
+    transition: 0.4s;
+  }
+
+  .navbarBtnGroup {
+    margin: 0;
+    width: 20%;
+    padding: 0;
+  }
+}

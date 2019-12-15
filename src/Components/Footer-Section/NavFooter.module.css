@@ -1,0 +1,15 @@
+.navbarItems {
+  display: flex;
+  flex-wrap: wrap;
+}
+.navbarItem {
+  list-style: none;
+  padding-right: 30px;
+}
+
+.navbarLink {
+  color: #d73c25;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1.2em;
+}

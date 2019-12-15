@@ -1,0 +1,25 @@
+.bag {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+.bagContainer {
+  color: #bdb8b3;
+  text-transform: uppercase;
+}
+
+.bagCount {
+  color: #cd4534;
+  font-weight: 600;
+}
+
+@media (min-width: 992px) {
+  .bag {
+    flex-direction: row;
+  }
+  .bagContainer {
+    margin-left: 20px;
+  }
+}

@@ -1,0 +1,22 @@
+.headerSubtitle {
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+  background-color: #ececec;
+}
+
+.headerSubtitle > span {
+  color: #757575;
+  font-style: italic;
+}
+
+@media (min-width: 992px) {
+  .headerSubtitle {
+    width: 20%;
+    padding: 0;
+    background-color: transparent;
+  }
+  .headerSubtitle > span {
+    color: #dd4131;
+  }
+}

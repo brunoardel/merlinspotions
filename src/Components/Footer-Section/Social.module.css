@@ -1,0 +1,27 @@
+.social {
+  padding: 20px 0;
+}
+
+.socialList {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.socialIcon {
+  text-decoration: none;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 1.5em;
+  background-color: #4e326c;
+  color: #e6e6e6;
+}
+@media (min-width: 992px) {
+  .socialList {
+    justify-content: space-between;
+  }
+}

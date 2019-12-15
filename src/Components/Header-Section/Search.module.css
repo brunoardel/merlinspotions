@@ -1,0 +1,24 @@
+.searchInput {
+  width: 80%;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.searchInput > span {
+  margin: 0 10px;
+  color: #d33e0e;
+}
+
+.searchInput > input::placeholder,
+.searchInput > input {
+  color: #bdb3b9;
+}
+@media (min-width: 992px) {
+  .searchInput {
+    width: 30%;
+    padding: 5px;
+    display: block;
+  }
+}

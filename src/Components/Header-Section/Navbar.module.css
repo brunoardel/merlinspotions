@@ -1,0 +1,20 @@
+.navbarOpen {
+  position: fixed;
+  align-self: flex-start;
+  width: 100%;
+}
+
+.searchContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+  background-color: #ffffff;
+}
+
+.navbarBtn {
+  margin: 0px;
+  background-color: transparent;
+  color: #4f346a;
+  font-size: 2em;
+  cursor: pointer;
+}

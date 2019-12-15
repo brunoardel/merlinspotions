@@ -1,0 +1,22 @@
+.potionImg {
+  width: 200px;
+  max-width: 100%;
+  max-height: 200px;
+}
+
+.potion {
+  margin: 40px 10px;
+}
+
+.potionBtn {
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.potionName {
+  font-weight: 600;
+}
+
+.potionPrice {
+  color: #df7256;
+}
